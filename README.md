@@ -2,6 +2,12 @@
 
 This is the backend for the SDE-1 hiring challenge. It simulates a fleet of 8 autonomous robots, streams their telemetry over WebSocket, and exposes a REST API so the dashboard can query history, change config at runtime, and trigger disruptions.
 
+## 🚀 Live Production URLs
+
+- **Backend Production API:** https://peppermint-backend-x8h1.onrender.com
+- **WebSocket Endpoint:** `wss://peppermint-backend-x8h1.onrender.com/ws`
+- **Frontend Live Dashboard:** https://peppermint-frontend.vercel.app
+
 ---
 
 ## What it does

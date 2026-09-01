@@ -7,7 +7,8 @@
     "build": "tsc",
     "start": "node dist/server.js",
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
-    "test": "jest"
+    "test": "jest",
+    "render-build": "npm install && npm run build"
   },
   "dependencies": {
     "cors": "^2.8.5",
